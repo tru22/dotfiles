@@ -197,7 +197,41 @@
 # 
 # alias cd=cd_func
 
-# ssh and scp
-alias sshsol='ssh u1525013@sol.edu.cc.uec.ac.jp'
+# ctrltocaps
+setxkbmap -option ctrl:nocaps
+
+# export editor
+export EDITOR=emacs
+
+# alias
+alias sshsol='ssh sol'
+alias sshberyl="ssh beryl"
 alias scpfromsol='scp -r u1525013@sol.edu.cc.uec.ac.jp:~/SCP/* ~/scp'
 alias scptosol='scp -r ~/scp/* u1525013@sol.edu.cc.uec.ac.jp:~/SCP'
+alias scpfromberyl='scp -r beryl:~/exhome/scp/* ~/scp'
+alias scptoberyl='scp -r ~/scp/* beryl:~/exhome/scp'
+alias ll='ls -l'
+alias la='ls -al'
+alias em='emacs'
+alias shut='shutdown -h now'
+alias ff='firefox'
+alias tb='thunderbird'
+alias ev='evince'
+alias pla='platex'
+alias dvi='dvipdfmx'
+alias gq='geeqie'
+alias qpdf='qpdfview'
+alias ran='ranger'
+alias rm='rm -i'
+alias ls='ls --color=auto'
+alias eminit='emacs ~/.emacs.d/init.el'
+alias aptprxon='mv /etc/apt/apt.conf_off /etc/apt/apt.conf'
+alias aptprxoff='mv /etc/apt/apt.conf /etc/apt/apt.conf_off'
+
+# tmux
+tmux
+
+# genedict
+function dict() {
+    grep $1 ~/document/dict/gene-utf8.txt -A 1 -wi --color
+}

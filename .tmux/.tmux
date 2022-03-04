@@ -1,1 +1,0 @@
-/home/ryo/dotfiles/.tmux

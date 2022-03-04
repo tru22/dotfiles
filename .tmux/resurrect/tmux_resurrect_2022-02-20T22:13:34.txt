@@ -1,0 +1,11 @@
+pane	0	1	:bash	0	:	1	:/home/ryo/program/python/nlp100rev/chapter4	0	bash	:
+pane	0	1	:bash	0	:	2	:/home/ryo/program/python/nlp100/chap4	1	bash	:
+pane	0	2	:bash	1	:*	1	:/home/ryo/program/python/paiza	0	python3	:python3
+pane	0	2	:bash	1	:*	2	:/home/ryo/program/python/atcoder/abc240	1	bash	:emacs abc240a.py
+pane	0	3	:bash	0	:	1	:/home/ryo/program/cpp/apg4b	1	bash	:
+pane	0	4	:bash	0	:-	1	:/home/ryo	1	bash	:/usr/lib/firefox/firefox
+window	0	1	0	:	d798,80x33,0,0[80x15,0,0,1,80x17,0,16,2]
+window	0	2	1	:*	06a2,80x33,0,0[80x16,0,0,3,80x16,0,17,4]
+window	0	3	0	:	b062,80x33,0,0,5
+window	0	4	0	:-	b063,80x33,0,0,6
+state	0	
